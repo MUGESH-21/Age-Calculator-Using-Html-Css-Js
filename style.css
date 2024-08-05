@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(203, 66, 121);
+}
+.container{
+    width: min(60%,28.12em);
+    position: absolute;
+    transform: translate(-50%,-50%); 
+    top: 50%;
+    left: 50%;
+}
+.container *{
+    border: none;
+    outline: none;
+}
+.input-warper{
+    background-color: aliceblue;
+    padding: 1.87em 1.5em;
+    border-radius: 20px;
+    box-shadow: 0 0.93em 1.25em black ;
+    margin-bottom: 20%;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 1rem;
+}
+input,button{
+    font-weight: 500;
+    border-radius: 0.51rem;
+}
+input{
+    background-color: rgb(144, 191, 191);
+    padding: 1.2em 1.25em;
+    font-size: 15px;
+}
+button{
+    color: white;
+    background-color: blueviolet;
+}
+.output-warpar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.output-warpar div{
+    height: 6.25em;
+    width: 6.25em;
+    background-color: aliceblue;
+    border-radius: 20px;
+    color: black;
+    display: grid;
+    place-items: center;
+    padding: 1.25em 0;
+    box-shadow: 0 0.93em 1.25em black;
+}
+span{
+    font-size: 20px;
+    color: rgb(140, 112, 172);
+}
